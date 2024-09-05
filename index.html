@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kings Gym</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Kings Gym</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Welcome to Kings Gym</h2>
+            <p>Get fit, stay healthy, and feel great.</p>
+            <a href="#services" class="btn">Our Services</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Kings Gym</h2>
+            <p>At Kings Gym, we provide a variety of fitness programs tailored to all levels. Whether you're looking to build muscle, lose weight, or maintain a healthy lifestyle, we've got something for you!</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Personal Training</h3>
+                <p>One-on-one coaching to help you achieve your goals.</p>
+            </div>
+            <div class="service">
+                <h3>Group Classes</h3>
+                <p>Join our group sessions for yoga, Zumba, and more.</p>
+            </div>
+            <div class="service">
+                <h3>Nutrition Advice</h3>
+                <p>Get personalized meal plans from our certified nutritionists.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule">
+        <div class="container">
+            <h2>Schedule</h2>
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th>Time</th>
+                    <th>Class</th>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>7:00 AM - 8:00 AM</td>
+                    <td>Yoga</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>6:00 PM - 7:00 PM</td>
+                    <td>Zumba</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>5:00 PM - 6:00 PM</td>
+                    <td>Strength Training</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>7:00 AM - 8:00 AM</td>
+                    <td>Cardio Blast</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>6:00 PM - 7:00 PM</td>
+                    <td>CrossFit</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Kings Gym. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
